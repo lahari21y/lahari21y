@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form(LinkedIn)</title>
+    <style>
+        form{
+            width: 30%;
+            margin-left: 35%;
+            height: 200px;
+        }
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 style="text-align: center;">Registration Form(LinkedIn)</h1>
+    <form action="submit">
+        <fieldset>
+            <legend >LinkedIn</legend>
+            
+            <label for="first_name"> First_name:</label>
+            <input type="text" name="first_name" id="first_name"><br><br>
+
+            <label for="Last_name">Last_name:</label>
+            <input type="text"><br><br>
+
+            <label for="Date of Birth">Date of Birth:</label>
+            <input type="date"><br><br> 
+
+            <label for="E-mail">E-mail Address:</label>
+            <input type="text"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password"><br><br>
+
+            <label for="Confirm password"> Confirm Password:</label>
+            <input type="password"><br><br>
+
+            <label for="phone no">phone no:</label>
+            <input type="text"><br><br>
+            
+            <label for="occupation"> Occupation:</label>
+            <select name="occupation" id="occupation">
+            <optgroup>
+                <option value="occupation">Post-Grad</option>
+                <option value="occupation">Student</option>
+                <option value="occupation">Job</option>
+             </optgroup>
+            </select>
+            <br><br>
+           <input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

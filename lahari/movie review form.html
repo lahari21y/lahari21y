@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review Form</title>
+    <style>
+        body{
+            color: blueviolet;
+            font-size: larger;
+            background-color: bisque;
+        }
+        form{
+            width: 65%;
+            margin-left: 20%;
+            height: 55%;
+        }
+        img{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Movie Review Form</h1>
+    <form action="submit">
+        <fieldset style="background-color: rgb(214, 231, 127);">
+            <img src="https://tse1.mm.bing.net/th?id=OIP._3RFDUHkvFIyOSK4kJd2lAHaEK&pid=Api&P=0&h=220" alt="poster" height="350px" width="300px">
+            <label  for="name">Title: THE KERALA STORY</label><br><br>
+            <label for="Genre">Genre: Drama,Thriller</label><br><br>
+            <label for="Release-Date">Release-Date: May 5, 2023</label><br><br>
+            <label for="Cast">Cast: Adah Sharma, Yogita Bihani, Siddhi Idnani, Sonia Balani</label><br><br>
+            <label for="Director">Director: Sudipto Sen</label><br><br>
+            <label for="Music">Soundtrack: Viresh Sreevalsa, Bishakh Jyoti</label><br><br>
+            <label for="Rating">Rating:</label>
+            <input type="number" name="Rating" id="Ratings" min="1" max="10"><br><br>
+        </fieldset>
+        <fieldset style="background-color: rgb(214, 231, 127);">
+            <legend>Review</legend>
+            <textarea name="Review" id="Review" rows="5" cols="30"></textarea><br><br>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deactivation form</title>
+    <style>
+        form{
+            color: cornflowerblue;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: goldenrod;">Deactivation form</h1>
+    <form action="confirm">
+        <fieldset>
+           <label for="name">Username/Email/Phone Number:</label>
+           <input type="text"><br><br>
+
+           <label for="password">password:</label>
+           <input type="text"><br><br>
+
+           <label for="Reasons">Reasons for Deactivation:</label><br>
+           <input type="checkbox">
+           <label for="Reasons">Too many emails from LinkedIn</label><br>
+           <input type="checkbox">
+           <label for="Reasons">Concerns about privacy</label><br>
+           <input type="checkbox">
+           <label for="Reasons">Unhappy with the service</label><br>
+           <input type="checkbox">
+           <label for="Reasons">No longer using LinkedIn</label><br>
+           <input type="checkbox">
+           <label for="Reasons">Created a duplicate account</label><br>
+           <input type="checkbox">
+           <label for="Reasons">Other (with an optional explanation)</label><br>
+           <textarea name="Reasons" id="Reasons"></textarea><br><br>
+
+           <label for="optional feedback">optional feedback</label><br>
+           <textarea name="optional feedback" id="optional feedback" placeholder="optional feedback on how we can improve our services"></textarea><br><br>
+
+           <input type="checkbox">
+           <label for="Agree">I agree and understand the effects of deactivation, such as loss of access to content, connections, and messages</label><br><br>
+        
+           <input type="checkbox">
+           <label for="Captcha">I am not a robot</label><br><br>
+        
+           <button>confirm</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
